@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Roboto:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F0EFDE;
+  font-family: 'Fredoka', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.aboutDiv {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EFDE;
+  }
+
+  header {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 12%;
+    padding: 10px;
+    background-color: #F0EFDE;
+    justify-content: flex-end;
+  }
+
+  .pDescription {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #483948;
+  }
+
+  .pExperiencia {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-right: 20px;
+    font-size: 25px;
+    color: #483948;
+  }
+
+  .bar {
+    display: flex;
+    position: relative;
+    width: 65%;
+    height: 87%;
+    margin-top: 5px;
+    background-color: #483948;
+    border-radius: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  }
+
+  .firstTitle, .secondTitle {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    color: #483948;
+  }
+
+.dAbout {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 48%;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstAbout {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+}
+
+.dimg {
+  display: flex;
+  position: relative;
+  width: 30%;
+  height: 80%;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.secundExpe {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 35%;
+}
+
+.dimagen {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.aboutMain {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  width: 95%;
+  height: 80%;
+  padding: 10px;
+  background-color: #F0EFDE;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillBar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+}
+
+.Skills {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleSkill {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  color: #483948;
+}
+
+.allSkills {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+
+.skillDes {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  font-size: 25px;
+}
