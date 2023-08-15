@@ -13,17 +13,6 @@ body{
   height: 100vh;
 }
 
-.homeDiv {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #F0EFDE;
-}
-
 header {
   display: flex;
   position: relative;
@@ -35,26 +24,51 @@ header {
   justify-content: flex-end;
 }
 
-main {
+.bar {
   display: flex;
   position: relative;
-  margin-top: 40px;
+  width: 65%;
+  height: 95%;
+  background-color: #483948;
+  border-radius: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.homeDiv {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0EFDE;
+}
+
+.homeMain {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
   width: 95%;
-  height: 80%;
+  height: 79%;
   padding: 10px;
   background-color: #F0EFDE;
   justify-content: center;
   align-items: center;
 }
 
-img {
+.imgPort {
   display: flex;
   position: relative;
+  object-fit: fill;
   width: 90%;
-  height: 50%;
+  height: 80%;
 }
 
-p {
+.presentationHome {
   display: flex;
   position: relative;
   justify-content: center;
@@ -75,36 +89,20 @@ footer {
   justify-content: end;
 }
 
-.bar {
-  display: flex;
-  position: relative;
-  width: 65%;
-  height: 87%;
-  margin-top: 5px;
-  background-color: #483948;
-  border-radius: 40px;
-  padding: 10px;
-  margin-right: 10px;
-  justify-content: center;
-  align-items: center;
-  float: left;
-}
-
 .language {
   display: flex;
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-image: url('../assets/language_FILL0.png');
   background-color: #F0EFDE;
-  margin: 15px;
+  margin: 10px;
   border: none;
-  object-fit: cover;
+  background-size: contain;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
-
-/*background-image: '../assets/language_FILL0.png';*/
 
 .bHome, .bAbout, .bProject, .bContact {
   display: flex;
@@ -149,21 +147,15 @@ footer {
   align-items: start;
 }
 
-.imgPort {
-  display: flex;
-  position: relative;
-  object-fit: fill;
-  width: 90%;
-  height: 80%;
-}
-
 .in {
   display: flex;
   position: relative;
   width: 70px;
   height: 70px;
-  object-fit: cover;
   margin: 10px;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .gitHub {
@@ -173,6 +165,8 @@ footer {
   height: 70px;
   object-fit: cover;
   margin: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .titleUno {

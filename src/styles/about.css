@@ -13,80 +13,103 @@ body{
   height: 100vh;
 }
 
+header {
+  display: flex;
+  position: relative;
+  margin-top: 18px;
+  width: 100%;
+  height: 12%;
+  padding: 10px;
+  background-color: #F0EFDE;
+  justify-content: flex-end;
+}
+
+.barAbout {
+  display: flex;
+  position: relative;
+  width: 65%;
+  height: 87%;
+  background-color: #483948;
+  border-radius: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin-right: 60px;
+}
+
 .aboutDiv {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #F0EFDE;
-  }
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0EFDE;
+}
 
-  header {
-    display: flex;
-    position: relative;
-    margin-top: 10px;
-    width: 100%;
-    height: 12%;
-    padding: 10px;
-    background-color: #F0EFDE;
-    justify-content: flex-end;
-  }
-
-  .pDescription {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    margin-left: 20px;
-    font-size: 25px;
-    color: #483948;
-  }
-
-  .pExperiencia {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    margin-right: 20px;
-    font-size: 25px;
-    color: #483948;
-  }
-
-  .bar {
-    display: flex;
-    position: relative;
-    width: 65%;
-    height: 87%;
-    margin-top: 5px;
-    background-color: #483948;
-    border-radius: 40px;
-    padding: 10px;
-    margin-right: 10px;
-    justify-content: center;
-    align-items: center;
-    float: left;
-  }
-
-  .firstTitle, .secondTitle {
-    display: flex;
-    position: relative;
-    margin-bottom: 10px;
-    color: #483948;
-  }
+.aboutMain {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  width: 95%;
+  height: 85%;
+  padding: 10px;
+  background-color: #F0EFDE;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .dAbout {
   display: flex;
   position: relative;
   width: 100%;
-  height: 48%;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
+
+.pDescription {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    color: #483948;
+  }
+
+.pExperiencia {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    color: #483948;
+  }
+
+.skillDes {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    color: #483948;
+  }
+
+.firstTitle, .secondTitle, .titleSkill {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    color: #483948;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 
 .firstAbout {
   display: flex;
@@ -94,19 +117,9 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 35%;
-  height: 100%;
-}
-
-.dimg {
-  display: flex;
-  position: relative;
-  width: 30%;
-  height: 80%;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  object-fit: cover;
+  width: 90%;
+  height: 33%;
+  padding: 10px;
 }
 
 .secundExpe {
@@ -115,32 +128,9 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 35%;
-}
-
-.dimagen {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.aboutMain {
-  display: flex;
-  position: relative;
-  margin-top: 30px;
-  width: 95%;
-  height: 80%;
+  width: 90%;
+  height: 33%;
   padding: 10px;
-  background-color: #F0EFDE;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .skillBar {
@@ -149,23 +139,38 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  height: 30%;
+  width: 90%;
+  height: 33%;
+  padding: 10px;
 }
 
-.Skills {
+.dimg {
+  display: flex;
+  position: relative;
+  width: 30%;
+  height: 65%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.imgDiv {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%; 
+}
+
+.dimagen {
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-
-.titleSkill {
-  display: flex;
-  position: relative;
-  margin-bottom: 10px;
-  color: #483948;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .allSkills {
@@ -174,9 +179,12 @@ body{
   flex-direction: row;
 }
 
-.skillDes {
+.aboutDescription {
   display: flex;
   position: relative;
-  flex-direction: row;
-  font-size: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 85%;
 }

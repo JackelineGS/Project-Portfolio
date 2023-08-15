@@ -14,13 +14,13 @@ const home = (navigateTo) => {
         </div>
         <button class='language'></button>
     </header>
-    <main>
+    <main class='homeMain'>
     <div class='content'>
         <div class='texto'> 
             <h1 class='titleUno'>HOLA, MI NOMBRE ES</h1>
             <h1 class='titleDos'>JACKELINE GARCÍA</h1>
             <h1 class='titleTres'>WEB DEVELOPER</h1> 
-            <p> Hola, esta es mi página web. Siéntete libre de navegar y saber más sobre mí. </p>
+            <p class='presentationHome'> Hola, esta es mi página web. Siéntete libre de navegar y saber más sobre mí. </p>
         </div>
         <div class='homeImg'>
             <img class='imgPort' src="../assets/Expain.png">
@@ -40,19 +40,24 @@ const home = (navigateTo) => {
     </footer> 
     `;
 
-    const aboutMe = homeDiv.querySelector('.bAbout');
-    aboutMe.addEventListener('click', () => {
-        navigateTo('/about');
-    });
-    
     const bHome = homeDiv.querySelector('.bHome');
     bHome.addEventListener('click', () => {
         navigateTo('/');
     });
 
+    const aboutMe = homeDiv.querySelector('.bAbout');
+    aboutMe.addEventListener('click', () => {
+        navigateTo('/about');
+    });
+
     const bProject = homeDiv.querySelector('.bProject');
     bProject.addEventListener('click', () => {
         navigateTo('/project');
+    });
+
+    const bContact = homeDiv.querySelector('.bContact');
+    bContact.addEventListener('click', () => {
+        navigateTo('/contact');
     });
 
 

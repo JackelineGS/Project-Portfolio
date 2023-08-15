@@ -1,12 +1,12 @@
 import home from './components/home.js';
 import project from './components/project.js';
-import error from './components/error404.js';
+import contact from './components/contact.js';
 import about from './components/aboutMe.js';
 
 const routes = [
     { path: '/', component: home },
     { path: '/project', component: project },
-    { path: '/error', component: error },
+    { path: '/contact', component: contact },
     { path: '/about', component: about }
 ]; 
 
