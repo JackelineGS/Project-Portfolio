@@ -130,7 +130,7 @@ header {
     grid-template-columns: 33% 33% 33%;
 }
 
-.divOne, .divTwo, .divThree, .divFour, .divFive {
+.divProject {
     display: flex;
     position: relative;
     margin: 10px;
@@ -138,11 +138,12 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 12px;
-} 
+}  
 
-.projectOne {
+.divProject .card-oneFront {
     display: flex;
     position: relative;
+    display: block;
     width: 85%;
     height: 200px;
     object-fit: contain;
@@ -156,9 +157,89 @@ header {
     background-repeat: no-repeat;
 }
 
-.projectTwo {
+.divProject .card-oneBack {
     display: flex;
     position: relative;
+    display: none;
+    width: 85%;
+    height: 200px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-color: #bdbdbd;
+    background-repeat: no-repeat;
+}
+
+.divProject:hover .card-oneFront {
+    display: none;
+}
+
+.divProject:hover .card-oneBack {
+    display: block;
+}
+
+.card-oneBack {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+p {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px;
+    padding: 10px;
+    height: 50%;
+    width: 90%;
+}
+
+.buttonDiv {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50%;
+    width: 90%;
+}
+
+.goDemo, .goCode {
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 40%;
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #483948;
+    border: none;
+    border-radius: 10px;
+}
+
+a {
+    color: #F0EFDE;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 17px;
+}
+
+.divProject .card-twoFront {
+    display: flex;
+    position: relative;
+    display: block;
     width: 85%;
     height: 200px;
     object-fit: contain;
@@ -172,9 +253,34 @@ header {
     background-repeat: no-repeat;
 }
 
-.projectThree {
+.divProject .card-twoBack {
     display: flex;
     position: relative;
+    display: none;
+    width: 85%;
+    height: 200px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-color: #bdbdbd;
+    background-repeat: no-repeat;
+}
+
+.divProject:hover .card-twoFront {
+    display: none;
+}
+
+.divProject:hover .card-twoBack {
+    display: block;
+}
+
+.divProject .card-threeFront {
+    display: flex;
+    position: relative;
+    display: block;
     width: 85%;
     height: 200px;
     object-fit: contain;
@@ -188,9 +294,34 @@ header {
     background-repeat: no-repeat;
 }
 
-.projectFour {
+.divProject .card-threeBack {
     display: flex;
     position: relative;
+    display: none;
+    width: 85%;
+    height: 200px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-color: #bdbdbd;
+    background-repeat: no-repeat;
+}
+
+.divProject:hover .card-threeFront {
+    display: none;
+}
+
+.divProject:hover .card-threeBack {
+    display: block;
+}
+
+.divProject .card-fourFront {
+    display: flex;
+    position: relative;
+    display: block;
     width: 85%;
     height: 200px;
     object-fit: contain;
@@ -204,9 +335,34 @@ header {
     background-repeat: no-repeat;
 }
 
-.projectFive {
+.divProject .card-fourBack {
     display: flex;
     position: relative;
+    display: none;
+    width: 85%;
+    height: 200px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-color: #bdbdbd;
+    background-repeat: no-repeat;
+}
+
+.divProject:hover .card-fourFront {
+    display: none;
+}
+
+.divProject:hover .card-fourBack {
+    display: block;
+}
+
+.divProject .card-fiveFront {
+    display: flex;
+    position: relative;
+    display: block;
     width: 85%;
     height: 200px;
     object-fit: contain;
@@ -219,3 +375,28 @@ header {
     background-color: #bdbdbd;
     background-repeat: no-repeat;
 }
+
+.divProject .card-fiveBack {
+    display: flex;
+    position: relative;
+    display: none;
+    width: 85%;
+    height: 200px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-color: #bdbdbd;
+    background-repeat: no-repeat;
+}
+
+.divProject:hover .card-fiveFront {
+    display: none;
+}
+
+.divProject:hover .card-fiveBack {
+    display: block;
+}
+
