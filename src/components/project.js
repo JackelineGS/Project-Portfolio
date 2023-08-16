@@ -23,7 +23,7 @@ const project = (navigateTo) => {
           <h1 class='proTitle'>Cipher</h1>
           <div class='card-oneFront'></div>
           <div class='card-oneBack'>
-            <p>Se creó una página web que permite cifrar y descifrar mensajes, para ello se utilizó el método del cifrado César</p>
+            <p>Se creó una página web que permite cifrar y descifrar mensajes, para ello se utilizó el método del cifrado César.</p>
             <div class='buttonDiv'>  
               <button class='goDemo'>
                 <a href='https://jackelinegs.github.io/DEV005-cipher/src' target='_blank'>Demo</a>
@@ -39,7 +39,7 @@ const project = (navigateTo) => {
           <h1 class='proTitle'>Data Lovers</h1>
           <div class='card-twoFront'></div>
           <div class='card-twoBack'>
-            <p>Se desarrolló una página web para visualizar las películas de Studio Ghibli</p>
+            <p>Se desarrolló una página web para visualizar las películas de Studio Ghibli.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
                 <a href='https://jackelinegs.github.io/DEV005-data-lovers/src/' target='_blank'>Demo</a>
@@ -54,19 +54,51 @@ const project = (navigateTo) => {
         <div class='divProject'>
           <h1 class='proTitle'>Md-Links</h1>
           <div class='card-threeFront'></div>
-          <div class='card-threeBack'>Proyecto tres</div>
+          <div class='card-threeBack'>
+            <p>Se desarrolló una librería para leer archivos con la extensión .md, verificar los links y 
+            reportar las estadísticas con la cantidad total de links, lins únicos y links rotos.</p>
+            <div class='buttonDiv'>
+              <button class='goDemo'>
+                <a href='https://www.npmjs.com/package/jg-mdlinks?activeTab=readme' target='_blank'>Demo</a>
+              </button>
+              <button class='goCode'>
+                <a href='https://github.com/JackelineGS/DEV005-md-links' target='_blank'>Código</a>
+              </button>
+            </div>
+          </div>
           <p class='proDescription'>Tecnologías: Figma, HTML, JavaScript, CSS, Git, Github, Node.js, Jest, Firebase </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>Social Network</h1>
           <div class='card-fourFront'></div>
-          <div class='card-fourBack'>Proyecto cuatro</div>
+          <div class='card-fourBack'>
+            <p>Se desarrolló una red social para conectar a personas apasionadas por las recetas de cocina.</p>
+            <div class='buttonDiv'>
+              <button class='goDemo'>
+                <a href='https://foodmatch-5bf52.web.app/' target='_blank'>Demo</a>
+              </button>
+              <button class='goCode'>
+                <a href='https://github.com/JackelineGS/DEV005-social-network-J#1-food-match' target='_blank'>Código</a>
+              </button>
+            </div>
+          </div>
           <p class='proDescription'>Tecnologías: JavaScript, Git, Github, Node.js, Axios, Jest </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>Burguer Queen</h1>
           <div class='card-fiveFront'></div>
-          <div class='card-fiveBack'>Proyecto cinco</div>
+          <div class='card-fiveBack'>
+            <p>Se desarrolló una web para hacer pedidos en un restaurante, 
+            así como administrar los productos y las credenciales del personal.</p>
+            <div class='buttonDiv'>
+              <button class='goDemo'>
+                <a href='https://www.figma.com/file/uwaMY6AvqrCtRTHbboIwUd/Untitled?type=design&node-id=0-1&mode=design&t=rj3LUCiwRMSRwbPI-0' target='_blank'>Demo</a>
+              </button>
+              <button class='goCode'>
+                <a href='https://github.com/JackelineGS/DEV005-burger-queen-api-client' target='_blank'>Código</a>
+              </button>
+            </div>  
+          </div>
           <p class='proDescription'>Tecnologías: Angular, JavaScript, TypeScript, HTTP, Git, Github, Karma, SASS, Node.js </p>
         </div>
       </div>
