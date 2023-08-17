@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Roboto:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0EFDE;
+  font-family: 'Fredoka', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+    display: flex;
+    position: relative;
+    margin-top: 18px;
+    width: 100%;
+    height: 12%;
+    padding: 10px;
+    background-color: #F0EFDE;
+    justify-content: flex-end;
+  }
+
+.barProject {
+    display: flex;
+    position: relative;
+    width: 65%;
+    height: 87%;
+    background-color: #483948;
+    border-radius: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 60px;
+  }
+
+  .contactDiv {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:aqua;
+  }
+
+.contactMain {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    width: 95%;
+    height: 85%;
+    padding: 10px;
+    background-color:aquamarine;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dContact {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.divInfo {
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 80%;
+    background-color: #483948;
+    margin-left: 40PX;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactImg {
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 50%;
+    background-color: blue;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.contactTitle {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    font-size: 27px;
+}
+
+.request {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    height: 50px;
+    font-size: 22px;
+}
+
+a {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+

@@ -1,30 +1,57 @@
-const error = (navigateTo) => {
-    const diverror = document.createElement('div');
-    diverror.className = 'diverror';
-    const imgerror = document.createElement('div');
-    imgerror.className = 'imgerror';
-    const btnerror = document.createElement('button');
-    btnerror.className = 'btnerror';
-    const infoerror = document.createElement('div');
-    infoerror.className = 'infoerror';
-  
-    const messageerror = document.createElement('h2');
-    messageerror.className = 'messageerror';
-  
-    const othermessage = document.createElement('p');
-    othermessage.className = 'othermessage';
-  
-    messageerror.textContent = 'Error 404';
-    othermessage.textContent = 'Página no encontrada';
-    btnerror.textContent = 'Ir a home';
-    btnerror.addEventListener('click', () => {
-      navigateTo('/');
-    });
-  
-    diverror.append(imgerror, infoerror);
-    infoerror.append(messageerror, othermessage, btnerror);
-    return diverror;
+const contact = (navigateTo) => {
+    
+  const contactDiv = document.createElement('div');
+  contactDiv.className = 'contactDiv';
+
+  contactDiv.innerHTML = '';
+  contactDiv.innerHTML += ` 
+  <header>
+    <div class='barProject'>
+      <button class='bHome'>Home</butoon>
+      <button class='bAbout'>About me</butoon>
+      <button class='bProject'>Proyectos</butoon>
+      <button class='bContact'>Contacto</butoon>
+    </div>
+  </header>
+  <main class='contactMain'>
+    <div class='dContact'>
+      <div class='divInfo'>
+        <h1 class='contactTitle'>Enviame un correo</h1>
+        <p class='request'>Si te interesa comunicarte conmigo, enviame un correo.</p>
+        <h1 class='correo'>jackeline.garcia.serna@gmail.com</h1>
+        <h1 class='contactTitle'>Redes sociales</h1>
+        <a href='https://www.linkedin.com/in/jackeline-garcia-ramh/'>LinkedIn</a>
+        <a href='https://github.com/JackelineGS'>GitHub</a>
+      </div>
+      <div class='contactImg'>
+        <img class='saludo' src='../assets/conection.png'>
+      </div>
+    </div>
+  </main>
+  `; 
+
+  const bHome = contactDiv.querySelector('.bHome');
+  bHome.addEventListener('click', () => {
+    navigateTo('/');
+  });
+
+  const bAbout = contactDiv.querySelector('.bAbout');
+  bAbout.addEventListener('click', () => {
+    navigateTo('/about');
+  });
+
+  const bProject = contactDiv.querySelector('.bProject');
+  bProject.addEventListener('click', () => {
+    navigateTo('/project');
+  });
+
+  const bContact = contactDiv.querySelector('.bContact');
+  bContact.addEventListener('click', () => {
+    navigateTo('/contact');
+  });
+
+    return contactDiv;
   };
   
-  export default error;
+  export default contact;
   

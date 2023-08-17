@@ -55,8 +55,8 @@ const project = (navigateTo) => {
           <h1 class='proTitle'>Md-Links</h1>
           <div class='card-threeFront'></div>
           <div class='card-threeBack'>
-            <p>Se desarrolló una librería para leer archivos con la extensión .md, verificar los links y 
-            reportar las estadísticas con la cantidad total de links, lins únicos y links rotos.</p>
+            <p>Se desarrolló una librería para leer archivos con la extensión .md, verificar sus links y 
+            reportar la cantidad total de links, links únicos y links rotos.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
                 <a href='https://www.npmjs.com/package/jg-mdlinks?activeTab=readme' target='_blank'>Demo</a>
