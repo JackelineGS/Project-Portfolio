@@ -20,8 +20,8 @@ const contact = (navigateTo) => {
         <p class='request'>Si te interesa comunicarte conmigo, enviame un correo.</p>
         <h1 class='correo'>jackeline.garcia.serna@gmail.com</h1>
         <h1 class='contactTitle'>Redes sociales</h1>
-        <a href='https://www.linkedin.com/in/jackeline-garcia-ramh/'>LinkedIn</a>
-        <a href='https://github.com/JackelineGS'>GitHub</a>
+        <a class='ancorLink' href='https://www.linkedin.com/in/jackeline-garcia-ramh/' target='_blank'>LinkedIn</a>
+        <a class='ancorGit' href='https://github.com/JackelineGS' target='_blank'>GitHub</a>
       </div>
       <div class='contactImg'>
         <img class='saludo' src='../assets/conection.png'>

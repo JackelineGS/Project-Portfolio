@@ -7,7 +7,8 @@ const project = (navigateTo) => {
   projectDiv.innerHTML += `  
   <header>
     <div class='searchDiv'>
-      <input class='search' type='text'>
+      <input class='search' type='search' data-search='Angular, JavaScript, TypeScript, 
+      HTTP, Git, Github, Karma, SASS, Node.js, HTML, Jest, Figma, Firebase'>
       </input>
     </div>
         <div class='barProject'>
@@ -105,13 +106,13 @@ const project = (navigateTo) => {
     </main>
   `;
 
-  projectDiv.querySelector('.divProject').addEventListener('mouseenter', function () {
-    this.classList.add('card-oneFront');
+ projectDiv.querySelector('.divProject').addEventListener('mouseover', function () {
+    this.classList.add('card-fiveBack');
   });
 
-  projectDiv.querySelector('.divProject').addEventListener('mouseleave', function() {
-    this.classList.remove('card-oneFront');
-  });
+  projectDiv.querySelector('.divProject').addEventListener('mouseout', function() {
+    this.classList.remove('card-fiveBack');
+  }); 
 
 
   const bHome = projectDiv.querySelector('.bHome');
@@ -133,6 +134,23 @@ const project = (navigateTo) => {
   bContact.addEventListener('click', () => {
       navigateTo('/contact');
   });
+
+  const search = projectDiv.querySelector('.search');
+
+    search.addEventListener('input', function () {
+      var searchTerm = this.value;
+      
+      var filteredCards = projectDiv.querySelectorAll('.divProject').filter(function(){
+        return $(this).data('search').indexOf(searchTerm) > -1;
+      });
+      
+      filteredCards.forEach(function() {
+        $(this).show();
+      });
+
+      projectDiv.querySelectorAll('.divProject').not(filteredCards).hide();
+    });
+  
 
     return projectDiv;
   };

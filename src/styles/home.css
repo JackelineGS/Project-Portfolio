@@ -119,6 +119,10 @@ footer {
   color: #F0EFDE;
 }
 
+.bHome:hover , .bAbout:hover , .bProject:hover , .bContact:hover {
+  color: #ED413E;
+}
+
 .content {
   display: flex;
   position: relative;
