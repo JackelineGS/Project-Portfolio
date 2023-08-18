@@ -138,17 +138,30 @@ const project = (navigateTo) => {
   const search = projectDiv.querySelector('.search');
 
     search.addEventListener('input', function () {
-      var searchTerm = this.value;
-      
-      var filteredCards = projectDiv.querySelectorAll('.divProject').filter(function(){
-        return $(this).data('search').indexOf(searchTerm) > -1;
-      });
-      
-      filteredCards.forEach(function() {
-        $(this).show();
-      });
+      var searchTerm = this.value.toLowerCase();
+      console.log(searchTerm);
 
-      projectDiv.querySelectorAll('.divProject').not(filteredCards).hide();
+      if(search instanceof HTMLElement) {
+          var allCards = projectDiv.querySelectorAll('.divProject');
+          console.log(allCards);
+          
+          var filteredCards = Array.from(allCards).filter(function(card) {
+            var cardDescription = card.querySelector('.proDescription').textContent.toLowerCase();
+          return cardDescription.includes(searchTerm);
+        });
+
+        allCards.forEach(function(card) {
+          card.style.display = 'none';
+        });
+
+        filteredCards.forEach(function(card) {
+          card.style.display = 'block';
+        });
+
+      } else {
+        throw new Error('El elemento projectDiv no es un elemento del DOM');
+      }      
+    
     });
   
 
