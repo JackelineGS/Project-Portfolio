@@ -150,10 +150,10 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: url('../assets/Cypher.PNG');
+    background-image: url('../assets/cipher_other.png');
     background-position: center;
     background-size: contain;
-    background-color: #bdbdbd;
+    background-color: #e0dab8;
     background-repeat: no-repeat;
 }
 
@@ -189,7 +189,7 @@ header {
     padding: 10px;
 }
 
-p {
+.reverse {
     display: flex;
     position: relative;
     justify-content: center;
@@ -251,10 +251,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: url('../assets/data_lovers.PNG');
+    background-image: url('../assets/ghibli1.png');
     background-position: center;
     background-size: contain;
-    background-color: #bdbdbd;
+    background-color: #c8dfe2;
     background-repeat: no-repeat;
 }
 
@@ -292,10 +292,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: url('../assets/mdLinks.png');
+    background-image: url('../assets/markdown.png');
     background-position: center;
     background-size: contain;
-    background-color: #bdbdbd;
+    background-color: #e0dab8;
     background-repeat: no-repeat;
 }
 
@@ -333,10 +333,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: url('../assets/FoodMatch.PNG');
+    background-image: url('../assets/recipes.jpg');
     background-position: center;
     background-size: contain;
-    background-color: #bdbdbd;
+    background-color: #c8dfe2;
     background-repeat: no-repeat;
 }
 
@@ -374,10 +374,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: url('../assets/Burguer.PNG');
+    background-image: url('../assets/Burger-Download.png');
     background-position: center;
     background-size: contain;
-    background-color: #bdbdbd;
+    background-color: #e0dab8;
     background-repeat: no-repeat;
 }
 

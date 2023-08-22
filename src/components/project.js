@@ -24,7 +24,7 @@ const project = (navigateTo) => {
           <h1 class='proTitle'>Cipher</h1>
           <div class='card-oneFront'></div>
           <div class='card-oneBack'>
-            <p>Se creó una página web que permite cifrar y descifrar mensajes, para ello se utilizó el método del cifrado César.</p>
+            <p class='reverse'>Se creó una página web que permite cifrar y descifrar mensajes, para ello se utilizó el método del cifrado César.</p>
             <div class='buttonDiv'>  
               <button class='goDemo'>
                 <a href='https://jackelinegs.github.io/DEV005-cipher/src' target='_blank'>Demo</a>
@@ -40,7 +40,7 @@ const project = (navigateTo) => {
           <h1 class='proTitle'>Data Lovers</h1>
           <div class='card-twoFront'></div>
           <div class='card-twoBack'>
-            <p>Se desarrolló una página web para visualizar las películas de Studio Ghibli.</p>
+            <p class='reverse'>Se desarrolló una página web para visualizar las películas de Studio Ghibli.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
                 <a href='https://jackelinegs.github.io/DEV005-data-lovers/src/' target='_blank'>Demo</a>
@@ -50,13 +50,13 @@ const project = (navigateTo) => {
               </button>
             </div>
           </div>
-          <p class='proDescription'>Tecnologías: Figma, HTML, JavaScript, CSS, Git, Github, Node.js, Jest </p>
+          <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Node, Git, Github, Jest, Figma </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>Md-Links</h1>
           <div class='card-threeFront'></div>
           <div class='card-threeBack'>
-            <p>Se desarrolló una librería para leer archivos con la extensión .md, verificar sus links y 
+            <p class='reverse'>Se desarrolló una librería para leer archivos con la extensión .md, verificar sus links y 
             reportar la cantidad total de links, links únicos y links rotos.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
@@ -67,13 +67,13 @@ const project = (navigateTo) => {
               </button>
             </div>
           </div>
-          <p class='proDescription'>Tecnologías: Figma, HTML, JavaScript, CSS, Git, Github, Node.js, Jest, Firebase </p>
+          <p class='proDescription'>Tecnologías: JavaScript, Git, Github, Node, Git, GitHub, Jest </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>Social Network</h1>
           <div class='card-fourFront'></div>
           <div class='card-fourBack'>
-            <p>Se desarrolló una red social para conectar a personas apasionadas por las recetas de cocina.</p>
+            <p class='reverse'>Se desarrolló una red social para conectar a personas apasionadas por las recetas de cocina.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
                 <a href='https://foodmatch-5bf52.web.app/' target='_blank'>Demo</a>
@@ -83,13 +83,13 @@ const project = (navigateTo) => {
               </button>
             </div>
           </div>
-          <p class='proDescription'>Tecnologías: JavaScript, Git, Github, Node.js, Axios, Jest </p>
+          <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Git, GitHub, Node, Jest, Firebase, Figma </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>Burguer Queen</h1>
           <div class='card-fiveFront'></div>
           <div class='card-fiveBack'>
-            <p>Se desarrolló una web para hacer pedidos en un restaurante, 
+            <p class='reverse'>Se desarrolló una web para hacer pedidos en un restaurante, 
             así como administrar los productos y las credenciales del personal.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
@@ -100,7 +100,7 @@ const project = (navigateTo) => {
               </button>
             </div>  
           </div>
-          <p class='proDescription'>Tecnologías: Angular, JavaScript, TypeScript, HTTP, Git, Github, Karma, SASS, Node.js </p>
+          <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, SASS, Angular, TypeScript, HTTP, Git, GitHub, Karma, Node, Figma </p>
         </div>
       </div>
     </main>

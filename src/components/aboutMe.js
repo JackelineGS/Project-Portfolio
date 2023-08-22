@@ -23,14 +23,20 @@ const about = (navigateTo) => {
                     gran pasión por la creación de 
                     websites y el aprendizaje en tecnología.</p>
                 </div>
-                <div class='secundExpe'>
-                    <h1 class='secondTitle'>Experiencia</h1>
-                    <p class='pExperiencia'>Asistente de investigación - IPOPS (2021-2023) </p>
-                </div>
                 <div class='skillBar'>
                     <h1 class='titleSkill'>Skills</h1>
                     <div class='allSkills'>
-                        <p class='skillDes'>JavaScript | HTML | CSS | Angular | TypeScript | SASS | Git | GitHub | R | Firebase | Figma</p>
+                        <p class='skillDes'>JavaScript </p>
+                        <p class='skillDes'> HTML </p>
+                        <p class='skillDes'> CSS </p>
+                        <p class='skillDes'> Angular </p>
+                        <p class='skillDes'> TypeScript </p>
+                        <p class='skillDes'> SASS </p>
+                        <p class='skillDes'> Git </p>
+                        <p class='skillDes'> GitHub </p>
+                        <p class='skillDes'> R </p>
+                        <p class='skillDes'> Firebase </p>
+                        <p class='skillDes'> Figma</p>
                     </div>
                 </div>
             </div>

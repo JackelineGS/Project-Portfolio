@@ -17,7 +17,10 @@ const contact = (navigateTo) => {
     <div class='dContact'>
       <div class='divInfo'>
         <h1 class='contactTitle'>Enviame un correo</h1>
-        <p class='request'>Si te interesa comunicarte conmigo, enviame un correo.</p>
+        <p class='request'> Estoy buscando nuevas oportunidades de desarrollo de proyectos o colaboraciones.
+        Si tienes un proyecto en mente, no dudes en contactarme. Estaré encantado de discutir tus necesidades 
+        y ver si puedo ayudarte a cumplir tus objetivos. Si te interesa comunicarte conmigo, enviame un correo, 
+        también puedes visitar mis redes sociales.</p>
         <h1 class='correo'>jackeline.garcia.serna@gmail.com</h1>
         <h1 class='contactTitle'>Redes sociales</h1>
         <a class='ancorLink' href='https://www.linkedin.com/in/jackeline-garcia-ramh/' target='_blank'>LinkedIn</a>

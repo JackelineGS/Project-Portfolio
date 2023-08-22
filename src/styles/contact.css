@@ -103,8 +103,10 @@ header {
     display: flex;
     position: relative;
     padding: 10px;
-    height: 25%;
+    height: 30%;
+    width: 70%;
     font-size: 22px;
+    color: #483948;
 }
 
 .correo {
