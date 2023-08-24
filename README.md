@@ -30,4 +30,6 @@ CONTACTO
 
 ## 2. Resumen del proyecto
 
-Desarrollé un portfolio con el objetivo de mostrar las habilidades que he ido desarrollado desplegado en proyectos con los cuales se puede interactuar, estos proyectos se desarrollaron a base de creatividad, uso de herramientas para el diseño y sobre todo programación para desarrollar un página amigable e informativa. Así mismo lo estaré actualizando a medida que cree nuevos proyectos, mejore los ya existentes, agregué más detalles o logre nuevas habilidades. 
+Desarrollé un portfolio con el objetivo de mostrar las habilidades que he ido desarrollado desplegado en proyectos con los cuales se puede interactuar, estos proyectos se desarrollaron a base de creatividad, uso de herramientas para el diseño y sobre todo programación para desarrollar un página amigable e informativa. Así mismo lo estaré actualizando a medida que cree nuevos proyectos, mejore los ya existentes, agregué más detalles o logre nuevas habilidades.
+
+El proyecto fue desarrollado utilizando JavaScript vanilla  y se deplegó usando Firebase. 
