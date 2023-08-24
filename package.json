@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d src"
+    "homepage": "/src"
   },
   "keywords": [
     "javascript"
