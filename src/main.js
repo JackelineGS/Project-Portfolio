@@ -3,6 +3,8 @@ import project from './components/project.js';
 import contact from './components/contact.js';
 import about from './components/aboutMe.js';
 
+import './lib/loginConfig.js';
+
 const routes = [
     { path: '/', component: home },
     { path: '/project', component: project },

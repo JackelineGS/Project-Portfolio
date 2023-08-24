@@ -58,3 +58,4 @@ const contact = (navigateTo) => {
   
   export default contact;
   
+  
