@@ -6,6 +6,7 @@ const home = (navigateTo) => {
     homeDiv.innerHTML = '';
     homeDiv.innerHTML += `
     <header>
+    <div class='logoDev'></div>
         <div class='bar'>
             <button class='bHome'>Home</butoon>
             <button class='bAbout'>About me</butoon>
@@ -23,20 +24,15 @@ const home = (navigateTo) => {
             <p class='presentationHome'> Hola, esta es mi página web. Siéntete libre de navegar y saber más sobre mí. </p>
         </div>
         <div class='homeImg'>
-            <img class='imgPort' src="../assets/Expain.png">
+            <div class='firstPicture'></div>
+            <div class='secondPicture'></div>
+            <div class='thirdPicture'></div>
+            <div class='fourPicture'></div>
         </div>
     </div>
         
     </main>
     <footer>
-        <div class='footRed'>
-            <a href='https://www.linkedin.com/in/jackeline-garcia-ramh/' title='Ir a LinkedIn' target='_blank'>
-                <img src='../assets/LinkedIn-Logos/LI-In-Bug.png' alt='LinkedIn' class='in'>
-            </a>
-            <a href='https://github.com/JackelineGS' title='Ir a GitHub' target='_blank'>
-                <img src='../assets/github-mark/github-mark.png' alt='GitHub' class='gitHub'>
-            </a>
-        </div>
     </footer> 
     `;
 

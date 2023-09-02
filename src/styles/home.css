@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Raleway:wght@500&family=Roboto:wght@700&display=swap');
 
 *{
   margin: 0;
@@ -8,7 +8,7 @@
 
 body{
   background-color: #F0EFDE;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 100vw;
   height: 100vh;
 }
@@ -16,12 +16,13 @@ body{
 header {
   display: flex;
   position: relative;
-  margin-top: 18px;
   width: 100%;
-  height: 12%;
+  height: 10%;
   padding: 10px;
-  background-color: #F0EFDE;
+  background: transparent;
   justify-content: flex-end;
+  background-color: #3C3240;
+  opacity: 0.9;
 }
 
 .bar {
@@ -29,12 +30,29 @@ header {
   position: relative;
   width: 65%;
   height: 95%;
-  background-color: #483948;
+  background-color: transparent;
   border-radius: 40px;
   padding: 10px;
   justify-content: center;
   align-items: center;
   float: left;
+}
+
+.logoDev {
+  display: flex;
+  position: relative;
+  display: block;
+  width: 30%;
+  height: 90%;
+  margin-right: 30px;
+  object-fit: contain;
+  justify-content:start;
+  align-items: center;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url('../assets/myPortfolio.png');
+
 }
 
 .homeDiv {
@@ -45,7 +63,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F0EFDE;
+  background-image: url('../assets/forest_midle_green.jpg');
 }
 
 .homeMain {
@@ -55,18 +73,11 @@ header {
   width: 95%;
   height: 79%;
   padding: 10px;
-  background-color: #F0EFDE;
+  background-color: transparent;
   justify-content: center;
   align-items: center;
 }
 
-.imgPort {
-  display: flex;
-  position: relative;
-  object-fit: fill;
-  width: 90%;
-  height: 80%;
-}
 
 .presentationHome {
   display: flex;
@@ -75,9 +86,12 @@ header {
   align-items: center;
   margin: 10px;
   padding: 5px;
-  font-size: 30px;
+  font-size: 25px;
   width: 100%;
-  color: #483948;
+  padding-left: 60px;
+  padding-right: 60px;
+  color:#F0EFDE;
+  font-family: 'Raleway', sans-serif;
 }
 
 footer {
@@ -114,8 +128,8 @@ footer {
   border: none;
   font-size: 25px;
   margin: 5px;
-  font-family: 'Fredoka', sans-serif;
-  background-color: #483948;
+  font-family: 'Raleway', sans-serif;
+  background-color: transparent;
   color: #F0EFDE;
 }
 
@@ -123,9 +137,87 @@ footer {
   color: #ED413E;
 }
 
+.homeImg {
+  display: grid;
+  position: relative;
+  flex-direction: column;
+  width: 50%;
+  height: 600px;
+  grid-template-columns: 50% 50%;
+}
+
+.firstPicture {
+  display: flex;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 0 0 0;
+  background-image: url('../assets/other_code_v2.png');
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.secondPicture {
+  display: flex;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 0 20px 0 0;
+  background-image: url('../assets/other_flowers.png');
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.thirdPicture {
+  display: flex;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 0 20px; 
+  background-image: url('../assets/lego_modified_v2.png');
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fourPicture {
+  display: flex;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 20px 0; 
+  background-image: url('../assets/other_hands.png');
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .content {
   display: flex;
   position: relative;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -134,22 +226,11 @@ footer {
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
   height: 90%;
   justify-content: center;
   align-items: center;
-  margin-left: 60px;
 } 
-
-.homeImg {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 40%;
-  height: 90%;
-  justify-content: start;
-  align-items: start;
-}
 
 .in {
   display: flex;
@@ -176,31 +257,34 @@ footer {
 .titleUno {
   display: flex;
   position: relative;
-  font-size: 60px;
+  font-size: 50px;
   padding: 5px;
-  color: #483948;
+  color:#F0EFDE;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
   justify-content: center;
 }
 
 .titleTres {
   display: flex;
   position: relative;
-  font-size: 60px;
+  font-size: 50px;
   padding: 5px;
-  color: #483948;
+  color:#F0EFDE;
   margin-bottom: 20px;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
   justify-content: center;
 }
 
 .titleDos {
   display: flex;
   position: relative;
-  font-size: 60px;
+  font-size: 50px;
   padding: 5px;
   color: #ED413E;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
 }
 
