@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Raleway:wght@500&family=Roboto:wght@700&display=swap');
 
 *{
   margin: 0;
@@ -8,7 +8,7 @@
 
 body {
   background-color: #F0EFDE;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 100vw;
   height: 100vh;
 }
@@ -42,30 +42,30 @@ header {
     display: flex;
     position: relative;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F0EFDE;
+    background-image: url('../assets/forest_midle_green.jpg');
   }
 
 .projectMain {
     display: flex;
     position: relative;
-    margin-top: 20px;
-    width: 95%;
-    height: 80%;
+    width: 100vw;
+    height: 100vh;
     padding: 10px;
-    background-color: #F0EFDE;
+    background-color: #3C3240;
     justify-content: center;
     align-items: center;
+    opacity: 0.95;
 }
 
 .proDescription {
     display: flex;
     position: relative;
     font-size: 18px;
-    color: #483948;
+    color: #F0EFDE;
     font-size: 15px;
     margin-top: 10px;
     width: 80%;
@@ -75,8 +75,11 @@ header {
     display: flex;
     position: relative;
     margin: 10px;
-    font-size: 25px;
-    color: #483948;
+    font-size: 20px;
+    color: #F0EFDE;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .searchDiv {
@@ -85,6 +88,7 @@ header {
     justify-content: center;
     align-items: center;
     justify-content: start;
+    margin-top: 10px;
     width: 25%;
     height: 85%;
 }
@@ -95,10 +99,10 @@ header {
     border-color: #483948;
     background-color: #F0EFDE;
     border-radius: 40px;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
-    width: 80%;
-    height: 50%;
+    width: 85%;
+    height: 60%;
 }
 
 .search {
@@ -122,12 +126,13 @@ header {
 .aboutProject {
     display: grid;
     position: relative;
-    background-color: #F0EFDE;
+    background-color: #3C3240;
     justify-content: center;
     align-items: center;
     overflow: scroll;
     width: 100%;
     height: 100%;
+    margin-top: 10px;
     grid-template-columns: 33% 33% 33%;
 }
 
@@ -218,6 +223,7 @@ header {
     width: 30%;
     height: 40%;
     margin: 10px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 

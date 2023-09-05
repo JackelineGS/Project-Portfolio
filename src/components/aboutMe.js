@@ -15,36 +15,38 @@ const about = (navigateTo) => {
     </header>
     <main class='aboutMain'>
         <div class='dAbout'>
+        <div class='dimg'>
+            <div class='imgDiv'>
+            <img class='dimagen' src='../assets/Jackeline_García-remove_v3.jpg'>
+            </div>
+        </div>
             <div class='aboutDescription'>
                 <div class='firstAbout'>
-                    <h1 class='firstTitle'>Sobre me</h1>
-                    <p class='pDescription'>Yo soy Jackeline García, 
-                    web developer de Perú con una 
-                    gran pasión por la creación de 
-                    websites y el aprendizaje en tecnología.</p>
+                    <h1 class='firstTitle'>SOBRE ME</h1>
+                    <p class='pDescription'>Bienvenidos a mi página web, mi nombre es Jackeline García, 
+                    web developer front-end. Me apasiona participar en el desarrollo de proyectos de tecnología que permitan
+                    mejorar el bienestar de las personas, así mismo estoy muy interesada en el aprendizaje de nuevas
+                    tecnologías.
+                   </p>  
                 </div>
                 <div class='skillBar'>
-                    <h1 class='titleSkill'>Skills</h1>
+                    <h1 class='titleSkill'>SKILLS</h1>
                     <div class='allSkills'>
-                        <p class='skillDes'>JavaScript </p>
-                        <p class='skillDes'> HTML </p>
-                        <p class='skillDes'> CSS </p>
-                        <p class='skillDes'> Angular </p>
-                        <p class='skillDes'> TypeScript </p>
-                        <p class='skillDes'> SASS </p>
-                        <p class='skillDes'> Git </p>
-                        <p class='skillDes'> GitHub </p>
-                        <p class='skillDes'> R </p>
-                        <p class='skillDes'> Firebase </p>
-                        <p class='skillDes'> Figma</p>
+                        <div class='skillDesOne'></div>
+                        <div class='skillDesTwo'></div>
+                        <div class='skillDesThree'></div>
+                        <div class='skillDesFour'></div>
+                        <div class='skillDesFive'></div>
+                        <div class='skillDesSix'></div>
+                        <div class='skillDesSeven'></div>
+                        <div class='skillDesEight'></div>
+                        <div class='skillDesNine'></div>
+                        <div class='skillDesTen'></div>
+                        <div class='skillDesEleven'></div>
+                        <div class='skillDesTwelve'></div>
                     </div>
                 </div>
-            </div>
-            <div class='dimg'>
-                <div class='imgDiv'>
-                <img class='dimagen' src='../assets/Jackeline_Garcia.jpg'>
-                </div>
-            </div>
+            </div
         </div>
     </main>
     `;

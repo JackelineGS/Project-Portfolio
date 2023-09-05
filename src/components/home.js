@@ -13,7 +13,6 @@ const home = (navigateTo) => {
             <button class='bProject'>Proyectos</butoon>
             <button class='bContact'>Contacto</butoon>
         </div>
-        <button class='language'></button>
     </header>
     <main class='homeMain'>
     <div class='content'>

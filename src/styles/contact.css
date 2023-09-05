@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Raleway:wght@500&family=Roboto:wght@700&display=swap');
 
 *{
   margin: 0;
@@ -39,22 +39,24 @@ header {
     display: flex;
     position: relative;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('../assets/forest_midle_green.jpg');
   }
 
 .contactMain {
     display: flex;
     position: relative;
-    margin-top: 30px;
-    width: 95%;
-    height: 85%;
+    width: 100vw;
+    height: 100vh;
     padding: 10px;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    background-color: #3C3240;
+    opacity: 0.95;
 }
 
 .dContact {
@@ -81,55 +83,77 @@ header {
 .contactImg {
     display: flex;
     position: relative;
+    flex-direction: column;
+    align-items: center;
     width: 40%;
-    height: 60%;
-    margin-top: 60px;
+    height: 80%;
     padding: 10px;
     margin-right: 40px;
-}
-
-.contactTitle {
-    display: flex;
-    position: relative;
-    padding: 10px;
-    font-size: 29px;
-    color:#483948;
 }
 
 .request {
     display: flex;
     position: relative;
     padding: 10px;
-    height: 30%;
-    width: 70%;
+    height: 35%;
+    width: 100%;
     font-size: 22px;
-    color: #483948;
+    color:#F0EFDE;
+    font-family: 'Raleway', sans-serif;
 }
 
 .correo {
   display: flex;
     position: relative;
     padding: 10px;
-    height: 15%;
+    height: 10%;
+    width: 100%;
     font-size: 22px;
     color: #ED413E;
-}
-
-.ancorLink, .ancorGit {
-    display: flex;
-    position: relative;
-    font-size: 25px;
-    padding: 10px;
-    color:#483948;
     align-items: center;
     justify-content: center;
-    font-family: 'Fredoka', sans-serif;
+}
+
+
+.ancorLink, .ancorGit {
+  display: flex;
+  position: relative;
+  font-size: 25px;
+  padding: 10px;
+  width: 50%;
+  background-color: #ED413E;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fredoka', sans-serif;
+  border-radius: 20px;
 }
 
 .ancorLink:hover , .ancorGit:hover {
-  color: #ED413E;
+  color: #3C3240;
 }
 
+.contactImg {
+  display: flex;
+  position: relative;
+  width: 40%;
+  height: 70%;
+  margin-top: 40px;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.imgForest {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
 
 
 

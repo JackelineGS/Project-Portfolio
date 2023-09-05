@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Oxygen:wght@700&family=Raleway:wght@500&family=Roboto:wght@700&display=swap');
 
 *{
   margin: 0;
@@ -8,7 +8,7 @@
 
 body{
   background-color: #F0EFDE;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 100vw;
   height: 100vh;
 }
@@ -30,7 +30,6 @@ header {
   background-color: transparent;
   border-radius: 40px;
   padding: 10px;
-  margin-right: 43px;
   justify-content: center;
   align-items: center;
   float: left;
@@ -40,21 +39,21 @@ header {
   display: flex;
   position: relative;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F0EFDE;
+  background-image: url('../assets/forest_midle_green.jpg');
 }
 
 .aboutMain {
   display: flex;
   position: relative;
-  margin-top: 30px;
-  width: 95%;
-  height: 85%;
+  width: 100%;
+  height: 100vh;
   padding: 10px;
-  background-color: #F0EFDE;
+  background-color: #3C3240;
+  opacity: 0.95;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -76,7 +75,8 @@ header {
     align-items: center;
     font-size: 25px;
     width: 100%;
-    color: #483948;
+    color: #F0EFDE;
+    padding: 10px;
   }
 
 .pExperiencia {
@@ -96,19 +96,20 @@ header {
     align-items: center;
     font-size: 25px;
     width: 100%;
-    color: #483948;
+    color: #F0EFDE;
     margin: 10px;
     padding: 10px;
   }
 
-.firstTitle, .secondTitle, .titleSkill {
+.firstTitle, .titleSkill {
     display: flex;
     position: relative;
     margin-bottom: 10px;
-    color: #483948;
+    color: #ED413E;
     width: 100%;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
   }
 
 .firstAbout {
@@ -118,7 +119,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 90%;
-  height: 33%;
+  height: 45%;
   padding: 10px;
 }
 
@@ -139,28 +140,34 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 20px;
   width: 90%;
-  height: 50%;
+  height: 45%;
   padding: 10px;
 }
 
 .dimg {
   display: flex;
   position: relative;
-  width: 30%;
+  width: 40%;
   height: 65%;
   padding: 10px;
   justify-content: center;
   align-items: center;
   object-fit: cover;
+  margin-left: 15px;
 }
 
 .imgDiv {
   display: flex;
   position: relative;
-  width: 100%;
-  height: 100%; 
+  width: 90%;
+  height: 100%;
+  background-color: #F0EFDE; 
+  border-top-right-radius: 10px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  align-items: center;
+  justify-content: center;
 }
 
 .dimagen {
@@ -172,6 +179,10 @@ header {
   height: 100%;
   border-radius: 20px;
   object-fit: cover;
+  padding: 15px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
 }
 
 .allSkills {
@@ -180,6 +191,9 @@ header {
   flex-direction:row;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
   grid-template-columns: 25% 25% 25% 25%;
 }
 
@@ -189,6 +203,141 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  margin-top: 40px;
   width: 60%;
-  height: 85%;
+  height: 90%;
+  margin-left: 10px;
+}
+
+.skillDesOne {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/JavaScript-logo.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesTwo {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/HTML5.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesThree {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/CSS3.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesFour {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/angular.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesFive {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/typescript_logov2.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesSix {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/sass_logo.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesSeven {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/git-bash-logo.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesEight {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/github.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesNine {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/r-free-Download.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesTen {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/firebase.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesEleven {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/figma-logo.png');
+  width: 90%;
+  height: 80%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skillDesTwelve {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/nodejs-logo-vector.svg');
+  width: 90%;
+  height: 70%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFFF;
 }

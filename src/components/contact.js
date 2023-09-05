@@ -16,22 +16,21 @@ const contact = (navigateTo) => {
   <main class='contactMain'>
     <div class='dContact'>
       <div class='divInfo'>
-        <h1 class='contactTitle'>Enviame un correo</h1>
         <p class='request'> Estoy buscando nuevas oportunidades de desarrollo de proyectos o colaboraciones.
-        Si tienes un proyecto en mente, no dudes en contactarme. Estaré encantado de discutir tus necesidades 
-        y ver si puedo ayudarte a cumplir tus objetivos. Si te interesa comunicarte conmigo, enviame un correo, 
-        también puedes visitar mis redes sociales.</p>
-        <h1 class='correo'>jackeline.garcia.serna@gmail.com</h1>
-        <h1 class='contactTitle'>Redes sociales</h1>
-        <a class='ancorLink' href='https://www.linkedin.com/in/jackeline-garcia-ramh/' target='_blank'>LinkedIn</a>
-        <a class='ancorGit' href='https://github.com/JackelineGS' target='_blank'>GitHub</a>
+        Si tienes un proyecto en mente, enviame un correo. Estaré encantada de discutir tus necesidades 
+        y ver si puedo ayudarte a cumplir tus objetivos. Si te interesa comunicarte conmigo enviame un correo: 
+        </p>
+        <p class='correo'>jackeline.garcia.serna@gmail.com</p>
+        <a class='ancorLink' href='https://www.linkedin.com/in/jackeline-garcia-ramh/' target='_blank'  type='button'>LinkedIn</a>
+        <a class='ancorGit' href='https://github.com/JackelineGS' target='_blank' type='button'>GitHub</a>
       </div>
       <div class='contactImg'>
-        <img class='saludo' src='../assets/conection.png'>
+      <img class='imgForest' src='../assets/work_space_purpleTres.png'>
       </div>
-    </div>
+      </div>
   </main>
   `; 
+
 
   const bHome = contactDiv.querySelector('.bHome');
   bHome.addEventListener('click', () => {

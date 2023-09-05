@@ -21,7 +21,7 @@ const project = (navigateTo) => {
     <main class='projectMain'>
       <div class='aboutProject'>
         <div class='divProject'>
-          <h1 class='proTitle'>Cipher</h1>
+          <h1 class='proTitle'>CIPHER</h1>
           <div class='card-oneFront'></div>
           <div class='card-oneBack'>
             <p class='reverse'>Se creó una página web que permite cifrar y descifrar mensajes, para ello se utilizó el método del cifrado César.</p>
@@ -37,7 +37,7 @@ const project = (navigateTo) => {
           <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Git, Github, Jest </p>
         </div>
         <div class='divProject'>
-          <h1 class='proTitle'>Data Lovers</h1>
+          <h1 class='proTitle'>DATA LOVERS</h1>
           <div class='card-twoFront'></div>
           <div class='card-twoBack'>
             <p class='reverse'>Se desarrolló una página web para visualizar las películas de Studio Ghibli.</p>
@@ -53,7 +53,7 @@ const project = (navigateTo) => {
           <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Node, Git, Github, Jest, Figma </p>
         </div>
         <div class='divProject'>
-          <h1 class='proTitle'>Md-Links</h1>
+          <h1 class='proTitle'>MD-LINKS</h1>
           <div class='card-threeFront'></div>
           <div class='card-threeBack'>
             <p class='reverse'>Se desarrolló una librería para leer archivos con la extensión .md, verificar sus links y 
@@ -70,7 +70,7 @@ const project = (navigateTo) => {
           <p class='proDescription'>Tecnologías: JavaScript, Git, Github, Node, Git, GitHub, Jest </p>
         </div>
         <div class='divProject'>
-          <h1 class='proTitle'>Social Network</h1>
+          <h1 class='proTitle'>SOCIAL NETWORK</h1>
           <div class='card-fourFront'></div>
           <div class='card-fourBack'>
             <p class='reverse'>Se desarrolló una red social para conectar a personas apasionadas por las recetas de cocina.</p>
@@ -86,7 +86,7 @@ const project = (navigateTo) => {
           <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Git, GitHub, Node, Jest, Firebase, Figma </p>
         </div>
         <div class='divProject'>
-          <h1 class='proTitle'>Burguer Queen</h1>
+          <h1 class='proTitle'>BURGUER QUEEN</h1>
           <div class='card-fiveFront'></div>
           <div class='card-fiveBack'>
             <p class='reverse'>Se desarrolló una web para hacer pedidos en un restaurante, 
