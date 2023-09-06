@@ -25,7 +25,7 @@ const contact = (navigateTo) => {
         <a class='ancorGit' href='https://github.com/JackelineGS' target='_blank' type='button'>GitHub</a>
       </div>
       <div class='contactImg'>
-      <img class='imgForest' src='../assets/work_space_purpleTres.png'>
+      <div class='imgForest'></div>
       </div>
       </div>
   </main>

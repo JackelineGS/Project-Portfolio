@@ -175,11 +175,13 @@ header {
   position: relative;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  object-fit: cover;
+  width: 90%;
+  height: 90%;
   padding: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/Jackeline_García-remove_v3.jpg');
   border-top-right-radius: 20px;
   border-top-left-radius: 70px;
   border-bottom-right-radius: 70px;

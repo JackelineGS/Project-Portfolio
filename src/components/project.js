@@ -93,7 +93,7 @@ const project = (navigateTo) => {
             así como administrar los productos y las credenciales del personal.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
-                <a class='textButton' href='https://www.figma.com/file/uwaMY6AvqrCtRTHbboIwUd/Untitled?type=design&node-id=0-1&mode=design&t=rj3LUCiwRMSRwbPI-0' target='_blank'>Demo</a>
+                <a class='textButton' href='https://github.com/JackelineGS/DEV005-burger-queen-api-client' target='_blank'>Demo</a>
               </button>
               <button class='goCode'>
                 <a class='textButton' href='https://github.com/JackelineGS/DEV005-burger-queen-api-client' target='_blank'>Código</a>

@@ -17,7 +17,7 @@ const about = (navigateTo) => {
         <div class='dAbout'>
         <div class='dimg'>
             <div class='imgDiv'>
-            <img class='dimagen' src='../assets/Jackeline_García-remove_v3.jpg'>
+            <div class='dimagen'></div>
             </div>
         </div>
             <div class='aboutDescription'>
