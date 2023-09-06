@@ -6,7 +6,7 @@ const contact = (navigateTo) => {
   contactDiv.innerHTML = '';
   contactDiv.innerHTML += ` 
   <header>
-    <div class='barProject'>
+    <div class='barContact'>
       <button class='bHome'>Home</butoon>
       <button class='bAbout'>About me</butoon>
       <button class='bProject'>Proyectos</butoon>

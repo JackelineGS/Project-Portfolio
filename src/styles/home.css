@@ -295,3 +295,165 @@ footer {
   flex-direction: row; 
   margin-right: 20px;
 }
+
+@media(max-width: 480px) {
+
+  body{
+    background-color: #F0EFDE;
+    font-family: 'Raleway', sans-serif;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    background: transparent;
+    justify-content: flex-end;
+    background-color: #3C3240;
+    opacity: 0.9;
+  }
+
+  .logoDev {
+    display: flex;
+    position: relative;
+    display: block;
+    width: 25%;
+    height: 90%;
+    margin-right: 0;
+    object-fit: contain;
+    justify-content:start;
+    align-items: center;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;  
+  }
+
+  .bar {
+    display: flex;
+    position: relative;
+    width: 75%;
+    height: 95%;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  }
+
+  .homeMain {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    height: 80%;
+    padding: 10px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 10%;
+    justify-content: end;
+  }
+
+  .homeDiv {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bHome, .bAbout, .bProject, .bContact {
+    display: flex;
+    position: relative;
+    height: 90%;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 13px;
+    margin: 3px;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    color: #F0EFDE;
+  }
+
+  .titleUno, .titleTres {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    color:#F0EFDE;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+  }
+
+  .titleDos {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    color: #ED413E;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .presentationHome {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 15px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:#F0EFDE;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .texto {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+  } 
+
+  .homeImg {
+    display: grid;
+    position: relative;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
+    grid-template-columns: 50% 50%;
+  }
+
+
+
+}

@@ -27,10 +27,10 @@ const project = (navigateTo) => {
             <p class='reverse'>Se creó una página web que permite cifrar y descifrar mensajes, para ello se utilizó el método del cifrado César.</p>
             <div class='buttonDiv'>  
               <button class='goDemo'>
-                <a href='https://jackelinegs.github.io/DEV005-cipher/src' target='_blank'>Demo</a>
+                <a class='textButton' href='https://jackelinegs.github.io/DEV005-cipher/src' target='_blank'>Demo</a>
               </button>
               <button class='goCode'>
-                <a href='https://github.com/JackelineGS/DEV005-cipher' target='_blank'>Código</a>
+                <a class='textButton' href='https://github.com/JackelineGS/DEV005-cipher' target='_blank'>Código</a>
               </button>
             </div>
             </div>
@@ -43,10 +43,10 @@ const project = (navigateTo) => {
             <p class='reverse'>Se desarrolló una página web para visualizar las películas de Studio Ghibli.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
-                <a href='https://jackelinegs.github.io/DEV005-data-lovers/src/' target='_blank'>Demo</a>
+                <a class='textButton' href='https://jackelinegs.github.io/DEV005-data-lovers/src/' target='_blank'>Demo</a>
               </button>
               <button class='goCode'>
-                <a href='https://github.com/JackelineGS/DEV005-data-lovers' target='_blank'>Código</a>
+                <a class='textButton' href='https://github.com/JackelineGS/DEV005-data-lovers' target='_blank'>Código</a>
               </button>
             </div>
           </div>
@@ -60,10 +60,10 @@ const project = (navigateTo) => {
             reportar la cantidad total de links, links únicos y links rotos.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
-                <a href='https://www.npmjs.com/package/jg-mdlinks?activeTab=readme' target='_blank'>Demo</a>
+                <a class='textButton' href='https://www.npmjs.com/package/jg-mdlinks?activeTab=readme' target='_blank'>Demo</a>
               </button>
               <button class='goCode'>
-                <a href='https://github.com/JackelineGS/DEV005-md-links' target='_blank'>Código</a>
+                <a class='textButton' href='https://github.com/JackelineGS/DEV005-md-links' target='_blank'>Código</a>
               </button>
             </div>
           </div>
@@ -76,10 +76,10 @@ const project = (navigateTo) => {
             <p class='reverse'>Se desarrolló una red social para conectar a personas apasionadas por las recetas de cocina.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
-                <a href='https://foodmatch-5bf52.web.app/' target='_blank'>Demo</a>
+                <a class='textButton' href='https://foodmatch-5bf52.web.app/' target='_blank'>Demo</a>
               </button>
               <button class='goCode'>
-                <a href='https://github.com/JackelineGS/DEV005-social-network-J#1-food-match' target='_blank'>Código</a>
+                <a class='textButton' href='https://github.com/JackelineGS/DEV005-social-network-J#1-food-match' target='_blank'>Código</a>
               </button>
             </div>
           </div>
@@ -89,14 +89,14 @@ const project = (navigateTo) => {
           <h1 class='proTitle'>BURGUER QUEEN</h1>
           <div class='card-fiveFront'></div>
           <div class='card-fiveBack'>
-            <p class='reverse'>Se desarrolló una web para hacer pedidos en un restaurante, 
+            <p class='reverse'>Se desarrolló una web para hacer pedidos, 
             así como administrar los productos y las credenciales del personal.</p>
             <div class='buttonDiv'>
               <button class='goDemo'>
-                <a href='https://www.figma.com/file/uwaMY6AvqrCtRTHbboIwUd/Untitled?type=design&node-id=0-1&mode=design&t=rj3LUCiwRMSRwbPI-0' target='_blank'>Demo</a>
+                <a class='textButton' href='https://www.figma.com/file/uwaMY6AvqrCtRTHbboIwUd/Untitled?type=design&node-id=0-1&mode=design&t=rj3LUCiwRMSRwbPI-0' target='_blank'>Demo</a>
               </button>
               <button class='goCode'>
-                <a href='https://github.com/JackelineGS/DEV005-burger-queen-api-client' target='_blank'>Código</a>
+                <a class='textButton' href='https://github.com/JackelineGS/DEV005-burger-queen-api-client' target='_blank'>Código</a>
               </button>
             </div>  
           </div>

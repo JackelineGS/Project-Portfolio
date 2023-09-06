@@ -412,3 +412,221 @@ a:hover {
     display: block;
 }
 
+
+@media(max-width: 480px) {
+
+    body {
+        background-color: #F0EFDE;
+        font-family: 'Raleway', sans-serif;
+        width: 100vw;
+        height: 100vh;
+      }
+
+    header {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 10%;
+        padding: 10px;
+        background: transparent;
+        justify-content: flex-end;
+        background-color: #3C3240;
+        opacity: 0.9;
+      }
+
+      .barProject {
+        display: flex;
+      position: relative;
+      width: 75%;
+      height: 95%;
+      background-color: transparent;
+      border-radius: 40px;
+      padding: 5px;
+      justify-content: center;
+      align-items: center;
+      float: left;
+      }
+
+    .searchDiv {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        width: 25%;
+        height: 85%;
+    }
+
+    .search {
+        display: flex;
+        position: relative;
+        border-color: #483948;
+        background-color: #F0EFDE;
+        border-radius: 40px;
+        padding-left: 34px;
+        font-size: 15px;
+        margin: 0;
+        width: 100%;
+        height: 60%;
+        background-image: url('../assets/search_FILL0.png');
+        background-size: contain;
+    }
+
+      .projectDiv {
+        display: flex;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .projectMain {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 90%;
+        padding: 10px;
+        background-color: #3C3240;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.95;
+    }
+
+    .bHome, .bAbout, .bProject, .bContact {
+        display: flex;
+        position: relative;
+        height: 90%;
+        width: 25%;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        font-size: 13px;
+        margin: 3px;
+        font-family: 'Raleway', sans-serif;
+        background-color: transparent;
+        color: #F0EFDE;
+      }
+
+      .proTitle {
+        display: flex;
+        position: relative;
+        margin: 10px;
+        font-size: 15px;
+        color: #F0EFDE;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .aboutProject {
+        display: grid;
+        position: relative;
+        background-color: #3C3240;
+        align-items: center;
+        overflow: scroll;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .aboutProject {
+        display: grid;
+        position: relative;
+        background-color: #3C3240;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .divProject {
+        display: flex;
+        position: relative;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    } 
+
+    .card-oneFront, .card-oneBack, .card-twoFront, .card-twoBack, 
+    .card-threeFront, .card-threeBack, .card-fourFront, .card-fourBack, 
+    .card-fiveFront .card-fiveBack {
+        display: flex;
+        position: relative;
+        display: block;
+        width: 90%;
+        height: 70%;
+        padding-top: 10px;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin-right: 0;
+        background-position: center;
+        background-size: contain;
+        background-color: #e0dab8;
+        background-repeat: no-repeat;
+    }
+
+    .reverse {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        padding: 5px;
+        height: 100px;
+        width: 95%;
+    }
+
+    .buttonDiv {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 30%;
+        width: 100%;
+    }
+
+    .goDemo, .goCode {
+        display: flex;
+        position: relative;
+        width: 80%;
+        height: 60%;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .textButton {
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+    }
+
+    .proDescription {
+        display: flex;
+        position: relative;
+        font-size: 18px;
+        color: #F0EFDE;
+        font-size: 11px;
+        margin-top: 10px;
+        width: 90%;
+        height: 50px;
+    }
+    
+}
+
+
+
+
+
+
+
+

@@ -20,7 +20,7 @@ const home = (navigateTo) => {
             <h1 class='titleUno'>HOLA, MI NOMBRE ES</h1>
             <h1 class='titleDos'>JACKELINE GARCÍA</h1>
             <h1 class='titleTres'>WEB DEVELOPER</h1> 
-            <p class='presentationHome'> Hola, esta es mi página web. Siéntete libre de navegar y saber más sobre mí. </p>
+            <p class='presentationHome'> Esta es mi página web. Siéntete libre de navegar y saber más sobre mí. </p>
         </div>
         <div class='homeImg'>
             <div class='firstPicture'></div>
