@@ -17,7 +17,7 @@ const contact = (navigateTo) => {
     <div class='dContact'>
       <div class='divInfo'>
         <p class='request'> Estoy buscando nuevas oportunidades de desarrollo de proyectos o colaboraciones.
-        Si tienes un proyecto en mente, enviame un correo. Estaré encantada de discutir tus necesidades 
+        Si tienes un proyecto en mente, estaré encantada de discutir tus necesidades 
         y ver si puedo ayudarte a cumplir tus objetivos. Si te interesa comunicarte conmigo enviame un correo: 
         </p>
         <p class='correo'>jackeline.garcia.serna@gmail.com</p>
