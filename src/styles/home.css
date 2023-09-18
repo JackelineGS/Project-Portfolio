@@ -159,7 +159,7 @@ footer {
   background-size:cover;
   background-repeat: no-repeat;
   border-radius: 20px 0 0 0;
-  background-image: url('../assets/other_code_v2.png');
+  background-image: url('../assets/computer_code.jpg');
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -176,7 +176,7 @@ footer {
   background-size:cover;
   background-repeat: no-repeat;
   border-radius: 0 20px 0 0;
-  background-image: url('../assets/other_flowers.png');
+  background-image: url('../assets/flowers.jpg');
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -193,7 +193,7 @@ footer {
   background-size:cover;
   background-repeat: no-repeat;
   border-radius: 0 0 0 20px; 
-  background-image: url('../assets/lego_modified_v2.png');
+  background-image: url('../assets/lego_code.jpg');
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -210,7 +210,7 @@ footer {
   background-size:cover;
   background-repeat: no-repeat;
   border-radius: 0 0 20px 0; 
-  background-image: url('../assets/other_hands.png');
+  background-image: url('../assets/hands_code.jpg');
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 

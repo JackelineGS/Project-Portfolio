@@ -8,7 +8,7 @@ const about = (navigateTo) => {
     <header>
         <div class='barAbout'>
             <button class='bHome'>Home</butoon>
-            <button class='bAbout'>About me</butoon>
+            <button class='bAbout'>Sobre mi</butoon>
             <button class='bProject'>Proyectos</butoon>
             <button class='bContact'>Contacto</butoon>
         </div>
@@ -24,7 +24,7 @@ const about = (navigateTo) => {
                 <div class='firstAbout'>
                     <h1 class='firstTitle'>SOBRE MI</h1>
                     <p class='pDescription'>Bienvenidos a mi página web, mi nombre es Jackeline García, 
-                    web developer front-end. Me apasiona participar en el desarrollo de proyectos de tecnología que permitan
+                    web developer front-end. Me apasiona participar en proyectos que permitan
                     mejorar el bienestar de las personas, así mismo estoy muy interesada en el aprendizaje de nuevas
                     tecnologías.
                    </p>  

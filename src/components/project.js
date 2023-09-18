@@ -13,7 +13,7 @@ const project = (navigateTo) => {
     </div>
         <div class='barProject'>
             <button class='bHome'>Home</butoon>
-            <button class='bAbout'>About me</butoon>
+            <button class='bAbout'>Sobre mi</butoon>
             <button class='bProject'>Proyectos</butoon>
             <button class='bContact'>Contacto</butoon>
         </div>
@@ -34,7 +34,7 @@ const project = (navigateTo) => {
               </button>
             </div>
             </div>
-          <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Git, Github, Jest </p>
+          <p class='proDescription'> HTML, JavaScript, CSS, Git, Github, Jest </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>DATA LOVERS</h1>
@@ -50,7 +50,7 @@ const project = (navigateTo) => {
               </button>
             </div>
           </div>
-          <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Node, Git, Github, Jest, Figma </p>
+          <p class='proDescription'> HTML, JavaScript, CSS, Node, Git, Github, Jest, Figma </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>MD-LINKS</h1>
@@ -67,7 +67,7 @@ const project = (navigateTo) => {
               </button>
             </div>
           </div>
-          <p class='proDescription'>Tecnologías: JavaScript, Git, Github, Node, Git, GitHub, Jest </p>
+          <p class='proDescription'> JavaScript, Git, Github, Node, Git, GitHub, Jest </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>SOCIAL NETWORK</h1>
@@ -83,7 +83,7 @@ const project = (navigateTo) => {
               </button>
             </div>
           </div>
-          <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, Git, GitHub, Node, Jest, Firebase, Figma </p>
+          <p class='proDescription'> HTML, JavaScript, CSS, Git, GitHub, Node, Jest, Firebase, Figma </p>
         </div>
         <div class='divProject'>
           <h1 class='proTitle'>BURGUER QUEEN</h1>
@@ -100,7 +100,7 @@ const project = (navigateTo) => {
               </button>
             </div>  
           </div>
-          <p class='proDescription'>Tecnologías: HTML, JavaScript, CSS, SASS, Angular, TypeScript, HTTP, Git, GitHub, Karma, Node, Figma </p>
+          <p class='proDescription'> HTML, JavaScript, CSS, SASS, Angular, TypeScript, HTTP, Git, GitHub, Karma, Node, Figma </p>
         </div>
       </div>
     </main>

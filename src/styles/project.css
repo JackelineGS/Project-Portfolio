@@ -223,9 +223,12 @@ header {
     width: 30%;
     height: 40%;
     margin: 10px;
-    font-family: 'Fredoka', sans-serif;
 }
 
+.textButton {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
 
 button {
     display: flex;
@@ -624,6 +627,24 @@ a:hover {
 }
 
 
+/*
+
+    .textButton {
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+    }
+
+    .proDescription {
+        display: flex;
+        position: relative;
+        font-size: 18px;
+        color: #F0EFDE;
+        font-size: 11px;
+        margin-top: 10px;
+        width: 90%;
+        height: 50px;
+    }
+*/
 
 
 
